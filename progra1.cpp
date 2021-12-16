@@ -45,11 +45,14 @@ double r1,r2,i1,i2;
      cout<<"entrez la partie imaginaire :"<<endl;
     cin>>i2;
  complexe a(r1,i1);
- complexe b(r2,i2);   
+ complexe b(r2,i2); 
+  //soustraction 
  complexe s=a-b;
    s.afficher();
+  //addition
  complexe add=a+b;
  add.afficher();
+  //multiplication
  complexe mul=a*b;
  mul.afficher();
 
